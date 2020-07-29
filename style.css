@@ -1,0 +1,86 @@
+body {
+  background-color: #E1E5EE;
+  font-family: 'Raleway', sans-serif;
+  color: #4B5358;
+  font-size: 15px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  color: #4B5358;
+  font-size: 25px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #F9B9B7;
+}
+
+a:hover{
+  color: #77A6B6;
+  font-weight: 800;
+}
+img {
+  padding: 1px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.first_card {
+  padding: 40px;
+  background: white;
+  box-shadow: 2px 2px 3px grey;
+  border-radius: 5px;
+  margin: 20px 0px;
+}
+.second_card {
+  background: white;
+  box-shadow: 2px 2px 3px grey;
+  border-radius: 5px;
+}
+.my_tags li {
+  list-style: none;
+  display: inline;
+  font-size: 30px;
+  padding: 10px;
+}
+.btn-blue {
+    background-color: #F9B9B7;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+}
+.btn-blue:hover{
+  background-color: #77A6B6;
+  color: white;
+  font-weight: 800;
+}
+ul {
+  padding: 0px;
+}
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
